@@ -1,49 +1,43 @@
-.tutorial{
-    width: 680px;
+.tutorial {
+    width: 600px;
     text-align: center;
-    margin: auto;
-
-}
-figure.image{
-display: fiex;
-justify-content: center;
-background-color: black;
-
+    margin: auto
 }
 
-figure.imgage img{
-    width: 120px;
-
-}
-.notification{
-    margin-top: 20px important;
-
+figure.image {
+    display: flex;
+    justify-content: center;
+    background-color: black;
 }
 
-.title .icon{
+figure .image img {
+    width: 128px;
+}
+
+.notification {
+    margin-top: 20px !important;
+}
+
+.title .icon {
+    margin-left: 15px;
+}
+
+.hero {
     margin-bottom: 15px;
-
 }
 
-.hero{
-
-    margin-bottom: 20px;
-
-}
-
-.forms{
+.forms {
     display: flex;
     justify-content: space-around;
 }
 
-
-.dropdown-item{
+.dropdown-item {
     display: flex;
     align-items: center;
-height: 60px;
+    height: 60px;
 }
 
-.dropdown-item img{
+.dropdown-item img {
     height: 50px;
     margin-right: 10px;
 }

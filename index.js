@@ -1,5 +1,5 @@
 // const fetchData = async (searchTerm) => {
-//     const response = await axios.get('http://www.omdbapi.com/', {
+//     const response = await axios.get('58b8833b', {
 //         params: {
 //             apikey: '40a83d1b',
 //             s: searchTerm
@@ -29,7 +29,7 @@ autoCompleteConfig = {
     },
     async fetchData(searchTerm) {
         console.log("Hello!")
-        apiMovieURL = 'http://www.omdbapi.com/'
+        apiMovieURL = '58b8833b'
         const response = await axios.get(apiMovieURL, {
             params: {
                 apikey: '40a83d1b',
@@ -68,7 +68,7 @@ let leftMovie
 let rightMovie
 
 const onMovieSelect = async (movie, summaryElement, side) => {
-    const response = await axios.get('http://www.omdbapi.com/', {
+    const response = await axios.get('58b8833b', {
         params: {
             apikey: '40a83d1b',
             i: movie.imdbID
